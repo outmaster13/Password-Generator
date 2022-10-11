@@ -1,8 +1,8 @@
 var CACHE_NAME = 'iamgique-cache-v1';
 var urlsToCache = [
     '/',
-    '/assets/css/8content.css',
-    '/assets/css/uicon.css'
+    'https://password-generator.8content.com/assets/css/8content.css',
+    'https://password-generator.8content.com/assets/css/uicon.css'
 ];
 
 self.addEventListener('install', function (event) {

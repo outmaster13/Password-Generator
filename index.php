@@ -207,7 +207,7 @@ $logoFile = '<svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://ww
         }
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/service-worker.js?ver=1.0.1').then(function(registration) {
+                navigator.serviceWorker.register('/service-worker.js?ver=1.0.2').then(function(registration) {
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 }, function(err) {
                 console.log('ServiceWorker registration failed: ', err);
